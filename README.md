@@ -1,3 +1,3 @@
-# csc315_fall2019_project3
-
-World's best seam carver
+# Seam Carver
+CSC 315: Data Structures and Algorithms
+Fall 2019
