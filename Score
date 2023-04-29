@@ -1,0 +1,34 @@
+*  Code compiles without errors or warnings
+*  Can load 24-bit png color images from commandline
+*  Can display 24-bit png color images ('o' key to display)
+*  Can display 8-bit greyscale energy image ('e' key to display)
+*  All Team members showing repository activity
+================================================================================
+Checkpoint 1:  5%/5%  [git checkout 0e4f399159]
+
+Notes:
+
+   * Magic numbers like these
+   
+	double mlt = 1.0/765;
+
+    Need explanation for when the person stuck maintaining your code comes
+    along and needs to make a change.  A meaningful variable name might also
+    be in order.
+
+    Good job so far.
+
+================================================================================
+Checkpoint 2:  4%/5%  [git checkout eda2b5bc5f]
+
+*  All points from checkpoint 1 (no regressions)
+*  Display original image with vertical lowest energy seam ('v' key)
+*  Display original image with horizontal lowest energy seam ('h' key)
+*  All team members showing repository activity
+
+-  A small amount of memory leakage probably due to not freeing up the 
+event objects after calling doAction on them.
+
+-  Seams are found quickly the vertical seam does not match what most other
+   (and mine) implementations show.  How would you check this for accuracy?
+   It's not something easily verified visually.

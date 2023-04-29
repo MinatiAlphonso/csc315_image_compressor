@@ -1,2 +1,3 @@
-# csc315_image_compressor
-A content-aware image resizer that uses the Seam Carving algorithm
+# csc315_fall2019_project3
+
+World's best seam carver

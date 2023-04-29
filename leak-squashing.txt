@@ -1,0 +1,32 @@
+run 1: before any fixes (HJoceanSmall.png)
+==2891== LEAK SUMMARY:
+==2891==    definitely lost: 181,712 bytes in 1,172 blocks
+==2891==    indirectly lost: 26,641,648 bytes in 78 blocks
+==2891==      possibly lost: 151,724 bytes in 3 blocks
+==2891==    still reachable: 1,215,862 bytes in 690 blocks
+==2891==         suppressed: 0 bytes in 0 blocks
+
+run 2: before any fixes, pressed v to find a seam a bunch of times (HJoceanSmall.png)
+==3301== LEAK SUMMARY:
+==3301==    definitely lost: 416,552 bytes in 7,767 blocks
+==3301==    indirectly lost: 57,335,008 bytes in 155 blocks
+==3301==      possibly lost: 1,889,084 bytes in 6 blocks
+==3301==    still reachable: 1,215,862 bytes in 690 blocks
+==3301==         suppressed: 0 bytes in 0 blocks
+
+run 3: git commit 5e61eb545652e5c48b8655b59c59494b5d5497fd (HJOceanSmall.png)
+==3608== LEAK SUMMARY:
+==3608==    definitely lost: 7,152 bytes in 312 blocks
+==3608==    indirectly lost: 2,128 bytes in 5 blocks
+==3608==      possibly lost: 0 bytes in 0 blocks
+==3608==    still reachable: 1,797,262 bytes in 692 blocks
+==3608==         suppressed: 0 bytes in 0 blocks
+
+run 4: git commit 1de25d69346c61e7f4285475f38746c7ef9650b2 (HJoceanSmall.png)
+==4061== LEAK SUMMARY:
+==4061==    definitely lost: 5,968 bytes in 164 blocks
+==4061==    indirectly lost: 2,128 bytes in 5 blocks
+==4061==      possibly lost: 0 bytes in 0 blocks
+==4061==    still reachable: 1,797,262 bytes in 692 blocks
+==4061==         suppressed: 0 bytes in 0 blocks
+
