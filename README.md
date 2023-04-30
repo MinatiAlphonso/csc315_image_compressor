@@ -2,7 +2,10 @@
 CSC 315: Data Structures and Algorithms<br/>
 Fall 2019<br/>
 Authors: Minati Alphonso & Dustin Richards<br/>
-This is a content-aware image resizer. The program calculates the energy map of the image and chooses the lowest energy seam to remove using Dynamic Programming.<br/>
+Skills: C++, OpenGL
+
+## Overview
+This is a content-aware image resizer. The program calculates the energy map of the image and chooses the lowest energy seam to remove using Dynamic Programming.
 
 ## How to run project locally
 <ol>
